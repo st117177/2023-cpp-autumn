@@ -9,7 +9,7 @@ int main(int argc, char* argv[])
     for (int i = 0; i < size; i++)
     {
         std::cin >> *(array + i); //=array[i]
-        if (*(array + i)>0){
+        if (*(array + i) > 0) {
             size_new += 1; //узнаем размер нового массива считая положительные элементы
         }
     }
@@ -20,7 +20,7 @@ int main(int argc, char* argv[])
     {
         //заполняем j-тый элемент положительного массива
         if (*(array + i) > 0) {
-            *(array_new + j)= *(array + i);
+            *(array_new + j) = *(array + i);
             j++;
         }
     }
