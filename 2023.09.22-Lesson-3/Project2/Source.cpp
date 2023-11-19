@@ -1,6 +1,6 @@
 #include <iostream>
 
-int main() {
+int main(int argc, char* argv[]) {
     std::string n;
     std::cin >> n;
     int length = 0;
