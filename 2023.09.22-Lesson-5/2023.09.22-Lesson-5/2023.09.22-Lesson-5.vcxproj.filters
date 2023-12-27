@@ -26,8 +26,5 @@
     <ClInclude Include="func.h">
       <Filter>Файлы заголовков</Filter>
     </ClInclude>
-    <ClInclude Include="pragma_twice.h">
-      <Filter>Файлы заголовков</Filter>
-    </ClInclude>
   </ItemGroup>
 </Project>
