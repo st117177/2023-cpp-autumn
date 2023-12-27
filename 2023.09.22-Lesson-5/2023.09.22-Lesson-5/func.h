@@ -3,7 +3,6 @@
 #ifndef FUNC_H
 #define FUNC_H
 
-#include <ctime>
 
 void printMenu();
 void printArray(int* array, int len);
